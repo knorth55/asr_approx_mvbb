@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+  <name>asr_approx_mvbb</name>
+  <version>1.0.0</version>
+  <description>
+    This package contains a ROS wrapper for the ApproxMVBB library (http://gabyx.github.io/ApproxMVBB/), 
+    used to calculate approximated oriented bounding boxes.
+  </description>
+  <author>Gassner Nikolai</author>
+  <maintainer email="asr-ros@lists.kit.edu">Meißner Pascal</maintainer>
+  <license>MPL2</license>
+  <url type="website">http://ros.org/wiki/asr_approx_mvbb</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>Eigen</build_depend>
+  <build_depend>cmake_modules</build_depend>
+  
+  <run_depend>cmake_modules</run_depend>
+  <run_depend>Eigen</run_depend>
+
+</package>
