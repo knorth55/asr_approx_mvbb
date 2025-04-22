@@ -38,6 +38,7 @@ include_directories(
    src/ApproxMVBB/ConvexHull2D.cpp
    src/ApproxMVBB/MinAreaRectangle.cpp
    src/ApproxMVBB/OOBB.cpp
+   src/ApproxMVBB/ProjectedPointSet.cpp
    src/ApproxMVBB/RandomGenerators.cpp
    src/ApproxMVBB/Common/MyMatrixTypeDefs.cpp
    external/Diameter/src/alloc.cpp
