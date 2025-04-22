@@ -9,8 +9,8 @@
 
 /** Floating point config file for Predicates.hpp */
 
-    #define HAVE__FPU_SETCW            
+/* #undef HAVE__FPU_SETCW */
 /* #undef HAVE_FPSETPREC */
 /* #undef HAVE__CONTROLFP */
 /* #undef HAVE__CONTROLFP_S */
-    #define HAVE_FPU_INLINE_ASM_X86     
+/* #under HAVE_FPU_INLINE_ASM_X86 */
