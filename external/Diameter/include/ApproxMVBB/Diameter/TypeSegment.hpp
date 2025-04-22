@@ -10,18 +10,17 @@
 #ifndef ApproxMVBB_Diameter_TypeSegment_hpp
 #define ApproxMVBB_Diameter_TypeSegment_hpp
 
-namespace ApproxMVBB{
-namespace Diameter{
-
-    struct TypeSegment {
-      double const *extremity1;
-      double const *extremity2;
-      double squareDiameter;
-      int reduction_mode;
-    };
-
-}
-}
-#endif // ApproxMVBB_Diameter_TypeSegment_hpp
-
-
+namespace ApproxMVBB
+{
+    namespace Diameter
+    {
+        struct TypeSegment
+        {
+            double const* extremity1;
+            double const* extremity2;
+            double squareDiameter;
+            int reduction_mode;
+        };
+    }  // namespace Diameter
+}  // namespace ApproxMVBB
+#endif  // ApproxMVBB_Diameter_TypeSegment_hpp
