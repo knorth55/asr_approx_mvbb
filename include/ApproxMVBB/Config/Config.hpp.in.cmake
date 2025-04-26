@@ -15,25 +15,25 @@
 
 namespace ApproxMVBB{
 
-    static const unsigned int VersionMajor =  2 ;
-    static const unsigned int VersionMinor =  1 ;
-    static const unsigned int VersionPatch =  3 ;
+    static const unsigned int VersionMajor =  @ApproxMVBB_VERSION_MAJOR@ ;
+    static const unsigned int VersionMinor =  @ApproxMVBB_VERSION_MINOR@ ;
+    static const unsigned int VersionPatch =  @ApproxMVBB_VERSION_PATCH@ ;
     
     // This variable is primarily used for projects which used this source code but want to replace certain header files with their own!
-/* #undef ApproxMVBB_USE_DIFFERENT_HEADERS */
+    #cmakedefine ApproxMVBB_USE_DIFFERENT_HEADERS
     
     #ifdef ApproxMVBB_USE_DIFFERENT_HEADERS
-        #define ApproxMVBB_AssertionDebug_INCLUDE_FILE          ""
-        #define ApproxMVBB_Exception_INCLUDE_FILE               ""
-        #define ApproxMVBB_Platform_INCLUDE_FILE                ""
-        #define ApproxMVBB_StaticAssert_INCLUDE_FILE            ""
+        #define ApproxMVBB_AssertionDebug_INCLUDE_FILE          "@ApproxMVBB_AssertionDebug_INCLUDE_FILE@"
+        #define ApproxMVBB_Exception_INCLUDE_FILE               "@ApproxMVBB_Exception_INCLUDE_FILE@"
+        #define ApproxMVBB_Platform_INCLUDE_FILE                "@ApproxMVBB_Platform_INCLUDE_FILE@"
+        #define ApproxMVBB_StaticAssert_INCLUDE_FILE            "@ApproxMVBB_StaticAssert_INCLUDE_FILE@"
         
-        #define ApproxMVBB_MyMatrixTypeDefs_INCLUDE_FILE        ""
-        #define ApproxMVBB_MyContainerTypeDefs_INCLUDE_FILE     ""
+        #define ApproxMVBB_MyMatrixTypeDefs_INCLUDE_FILE        "@ApproxMVBB_MyMatrixTypeDefs_INCLUDE_FILE@"
+        #define ApproxMVBB_MyContainerTypeDefs_INCLUDE_FILE     "@ApproxMVBB_MyContainerTypeDefs_INCLUDE_FILE@"
         
-        #define ApproxMVBB_TypeDefs_INCLUDE_FILE                ""
-        #define ApproxMVBB_AABB_INCLUDE_FILE                    ""
-        #define ApproxMVBB_OOBB_INCLUDE_FILE                    ""
+        #define ApproxMVBB_TypeDefs_INCLUDE_FILE                "@ApproxMVBB_TypeDefs_INCLUDE_FILE@"
+        #define ApproxMVBB_AABB_INCLUDE_FILE                    "@ApproxMVBB_AABB_INCLUDE_FILE@"
+        #define ApproxMVBB_OOBB_INCLUDE_FILE                    "@ApproxMVBB_OOBB_INCLUDE_FILE@"
         
     #else
         #define ApproxMVBB_AssertionDebug_INCLUDE_FILE          "ApproxMVBB/Common/AssertionDebug.hpp"
@@ -51,14 +51,14 @@ namespace ApproxMVBB{
     #endif
     
     // Force log level
-    #define ApproxMVBB_FORCE_MSGLOG_LEVEL -1
+    #define ApproxMVBB_FORCE_MSGLOG_LEVEL @ApproxMVBB_FORCE_MSGLOG_LEVEL@
     
-    #define ApproxMVBB_OPENMP_SUPPORT 
+    #cmakedefine ApproxMVBB_OPENMP_SUPPORT 
     #ifdef ApproxMVBB_OPENMP_SUPPORT
     
-        #define ApproxMVBB_OPENMP_NTHREADS 
+        #define ApproxMVBB_OPENMP_NTHREADS @ApproxMVBB_OPENMP_NTHREADS@
         
-/* #undef ApproxMVBB_OPENMP_USE_NTHREADS */
+        #cmakedefine ApproxMVBB_OPENMP_USE_NTHREADS
         #ifdef ApproxMVBB_OPENMP_USE_NTHREADS
             #define ApproxMVBB_OPENMP_NUMTHREADS num_threads(ApproxMVBB_OPENMP_NTHREADS)
         #else

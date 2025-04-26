@@ -1,23 +1,35 @@
-/* This file was generated automatically by PredicatsInit.c */
 // ========================================================================================
 //  ApproxMVBB
-//  Copyright (C) 2014 by Gabriel Nützi <nuetzig (at) imes (d0t) mavt (d0t) ethz (d0t) ch>
+//  Copyright (C) 2014 by Gabriel Nützi <nuetzig (at) imes (d0t) mavt (d0t) ethz (døt) ch>
 //
 //  This Source Code Form is subject to the terms of the Mozilla Public
 //  License, v. 2.0. If a copy of the MPL was not distributed with this
 //  file, You can obtain one at http://mozilla.org/MPL/2.0/.
 // ========================================================================================
-static double splitter = 134217729.000000;
-static double resulterrbound = 3.330669073875471e-16;
-static double ccwerrboundA = 3.330669073875472e-16;
-static double ccwerrboundB = 2.220446049250315e-16;
-static double ccwerrboundC = 1.109335647967049e-31;
-static double o3derrboundA = 7.771561172376103e-16;
-static double o3derrboundB = 3.330669073875473e-16;
-static double o3derrboundC = 3.204747427460364e-31;
-static double iccerrboundA = 1.110223024625158e-15;
-static double iccerrboundB = 4.440892098500632e-16;
-static double iccerrboundC = 5.423418723394464e-31;
-static double isperrboundA = 1.776356839400253e-15;
-static double isperrboundB = 5.551115123125792e-16;
-static double isperrboundC = 8.751425667295619e-31;
+
+#ifndef ApproxMVBB_GeometryPredicates_PredicatesInit_hpp
+#define ApproxMVBB_GeometryPredicates_PredicatesInit_hpp
+
+#include "ApproxMVBB/GeometryPredicates/Config.hpp"
+
+namespace GeometryPredicates
+{
+    /** Initializer which intializes essential values for the predicates */
+    struct PredicatesInit
+    {
+        REAL splitter; /* = 2^ceiling(p / 2) + 1.  Used to split floats in half. */
+        /* A set of coefficients used to calculate maximum roundoff errors. */
+        REAL resulterrbound;
+        REAL ccwerrboundA, ccwerrboundB, ccwerrboundC;
+        REAL o3derrboundA, o3derrboundB, o3derrboundC;
+        REAL iccerrboundA, iccerrboundB, iccerrboundC;
+        REAL isperrboundA, isperrboundB, isperrboundC;
+
+        PredicatesInit();
+    };
+
+    //! Global variable which contains the init values.
+    extern PredicatesInit predicatesInit;
+}  // namespace GeometryPredicates
+
+#endif
