@@ -8,9 +8,15 @@
 //  file, You can obtain one at http://mozilla.org/MPL/2.0/.
 // ========================================================================================
 
-#include "asr_approx_mvbb/ApproxMVBB/Config/Config.hpp"
+#ifndef ApproxMVBB_Common_StaticAssert_hpp
+#define ApproxMVBB_Common_StaticAssert_hpp
 
-#include ApproxMVBB_AABB_INCLUDE_FILE
+#include <type_traits>
+
 namespace ApproxMVBB
 {
-}
+#define ApproxMVBB_STATIC_ASSERT(B) static_assert(B, "no message")
+#define ApproxMVBB_STATIC_ASSERTM(B, COMMENT) static_assert(B, COMMENT)
+}  // namespace ApproxMVBB
+
+#endif
