@@ -12,14 +12,14 @@
 #define ApproxMVBB_PointFunctions_hpp
 
 #include <string>
-#include "ApproxMVBB/Config/Config.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Config/Config.hpp"
 #include ApproxMVBB_AssertionDebug_INCLUDE_FILE
 #include ApproxMVBB_StaticAssert_INCLUDE_FILE
 #include ApproxMVBB_TypeDefs_INCLUDE_FILE
-#include "ApproxMVBB/Common/FloatingPointComparision.hpp"
-#include "ApproxMVBB/Common/TypeDefsPoints.hpp"
-#include "ApproxMVBB/Diameter/EstimateDiameter.hpp"
-#include "ApproxMVBB/GeometryPredicates/Predicates.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Common/FloatingPointComparision.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Common/TypeDefsPoints.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Diameter/EstimateDiameter.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/GeometryPredicates/Predicates.hpp"
 
 #ifdef __clang__
 #    pragma clang diagnostic push

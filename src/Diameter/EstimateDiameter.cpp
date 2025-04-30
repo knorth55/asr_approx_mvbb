@@ -9,11 +9,11 @@
 
 #include <limits>
 
-#include "ApproxMVBB/Config/Config.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Config/Config.hpp"
 #include ApproxMVBB_TypeDefs_INCLUDE_FILE
-#include "ApproxMVBB/Diameter/EstimateDiameter.hpp"
-#include "ApproxMVBB/Diameter/Utils/alloc.hpp"
-#include "ApproxMVBB/Diameter/Utils/util.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Diameter/EstimateDiameter.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Diameter/Utils/alloc.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Diameter/Utils/util.hpp"
 
 #ifdef __clang__
 #    pragma clang diagnostic push

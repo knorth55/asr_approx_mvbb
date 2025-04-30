@@ -13,13 +13,13 @@
 
 #include <string>
 #include <vector>
-#include "ApproxMVBB/Config/Config.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Config/Config.hpp"
 #include ApproxMVBB_TypeDefs_INCLUDE_FILE
-#include "ApproxMVBB/Common/TypeDefsPoints.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Common/TypeDefsPoints.hpp"
 #include ApproxMVBB_AssertionDebug_INCLUDE_FILE
-#include "ApproxMVBB/AngleFunctions.hpp"
-#include "ApproxMVBB/ConvexHull2D.hpp"
-#include "ApproxMVBB/PointFunctions.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/AngleFunctions.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/ConvexHull2D.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/PointFunctions.hpp"
 
 namespace ApproxMVBB
 {

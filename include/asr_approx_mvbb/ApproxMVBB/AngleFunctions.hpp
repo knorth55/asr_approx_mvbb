@@ -13,7 +13,7 @@
 
 #define _USE_MATH_DEFINES
 #include <cmath>
-#include "ApproxMVBB/Config/Config.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Config/Config.hpp"
 #include ApproxMVBB_TypeDefs_INCLUDE_FILE
 
 #define _USE_MATH_DEFINES

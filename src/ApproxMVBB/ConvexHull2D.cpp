@@ -10,7 +10,7 @@
 //#include <iterator> // for ostream_iterator
 //#include "TestFunctions.hpp"
 
-#include "ApproxMVBB/ConvexHull2D.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/ConvexHull2D.hpp"
 namespace ApproxMVBB
 {
     void ConvexHull2D::compute()

@@ -10,8 +10,8 @@
 #ifndef ApproxMVBB_RandomGenerator_hpp
 #define ApproxMVBB_RandomGenerator_hpp
 
-#include "ApproxMVBB/Common/StaticAssert.hpp"
-#include "ApproxMVBB/Config/Config.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Common/StaticAssert.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Config/Config.hpp"
 #include ApproxMVBB_TypeDefs_INCLUDE_FILE
 
 #include <cstdint>

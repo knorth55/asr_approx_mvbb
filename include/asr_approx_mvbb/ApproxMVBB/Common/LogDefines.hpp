@@ -13,7 +13,7 @@
 
 #include <iostream>
 
-#include "ApproxMVBB/Config/Config.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Config/Config.hpp"
 
 #define ApproxMVBB_LOG(message) std::cout << message;
 #define ApproxMVBB_LOGLEVEL(level, setlevel, message) \

@@ -13,7 +13,7 @@
 
 #include <algorithm>
 
-#include "ApproxMVBB/Config/Config.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Config/Config.hpp"
 #include ApproxMVBB_TypeDefs_INCLUDE_FILE
 #include ApproxMVBB_StaticAssert_INCLUDE_FILE
 #include ApproxMVBB_AssertionDebug_INCLUDE_FILE

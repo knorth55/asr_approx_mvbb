@@ -10,7 +10,7 @@
 #ifndef ApproxMVBB_GeometryPredicates_Predicates_hpp
 #define ApproxMVBB_GeometryPredicates_Predicates_hpp
 
-#include "ApproxMVBB/GeometryPredicates/Config.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/GeometryPredicates/Config.hpp"
 
 namespace GeometryPredicates
 {

@@ -9,8 +9,8 @@
 #ifndef ApproxMVBB_Diameter_EstimateDiameter_hpp
 #define ApproxMVBB_Diameter_EstimateDiameter_hpp
 
-#include "ApproxMVBB/Diameter/TypeSegment.hpp"
-#include "ApproxMVBB/RandomGenerators.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Diameter/TypeSegment.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/RandomGenerators.hpp"
 
 #include <random>
 

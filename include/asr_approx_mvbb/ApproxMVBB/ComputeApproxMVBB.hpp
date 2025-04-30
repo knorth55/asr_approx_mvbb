@@ -13,14 +13,14 @@
 
 #include <array>
 
-#include "ApproxMVBB/Common/LogDefines.hpp"
-#include "ApproxMVBB/Config/Config.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Common/LogDefines.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Config/Config.hpp"
 #include ApproxMVBB_TypeDefs_INCLUDE_FILE
-#include "ApproxMVBB/Common/TypeDefs.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Common/TypeDefs.hpp"
 #include ApproxMVBB_OOBB_INCLUDE_FILE
-#include "ApproxMVBB/GreatestCommonDivisor.hpp"
-#include "ApproxMVBB/ProjectedPointSet.hpp"
-#include "ApproxMVBB/RandomGenerators.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/GreatestCommonDivisor.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/ProjectedPointSet.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/RandomGenerators.hpp"
 
 namespace ApproxMVBB
 {

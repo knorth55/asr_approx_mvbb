@@ -7,9 +7,9 @@
 //  file, You can obtain one at http://mozilla.org/MPL/2.0/.
 // ========================================================================================
 
-#include "ApproxMVBB/GeometryPredicates/PredicatesInit.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/GeometryPredicates/PredicatesInit.hpp"
 /* FPU control. We MUST have only double precision (not extended precision) */
-#include "ApproxMVBB/GeometryPredicates/Rounding.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/GeometryPredicates/Rounding.hpp"
 
 #ifdef __clang__
 #    pragma clang diagnostic push

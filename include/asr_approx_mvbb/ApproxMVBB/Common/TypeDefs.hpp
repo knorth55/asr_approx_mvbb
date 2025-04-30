@@ -13,7 +13,7 @@
 
 #include <random>
 
-#include "ApproxMVBB/Config/Config.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Config/Config.hpp"
 #include ApproxMVBB_Platform_INCLUDE_FILE
 #include ApproxMVBB_MyMatrixTypeDefs_INCLUDE_FILE
 #include ApproxMVBB_MyContainerTypeDefs_INCLUDE_FILE
@@ -32,6 +32,6 @@ namespace ApproxMVBB
 
 }  // namespace ApproxMVBB
 
-#    include "ApproxMVBB/Common/TypeDefsPoints.hpp"
+#    include "asr_approx_mvbb/ApproxMVBB/Common/TypeDefsPoints.hpp"
 
 #endif

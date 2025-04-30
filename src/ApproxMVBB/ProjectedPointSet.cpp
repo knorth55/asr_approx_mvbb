@@ -10,7 +10,7 @@
 #ifndef ApproxMVBB_ProjectedPointSet_cpp
 #define ApproxMVBB_ProjectedPointSet_cpp
 
-#include "ApproxMVBB/ProjectedPointSet.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/ProjectedPointSet.hpp"
 
 namespace ApproxMVBB
 {

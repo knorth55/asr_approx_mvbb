@@ -8,7 +8,7 @@
 //  file, You can obtain one at http://mozilla.org/MPL/2.0/.
 // ========================================================================================
 
-#include "ApproxMVBB/MinAreaRectangle.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/MinAreaRectangle.hpp"
 
 namespace ApproxMVBB
 {

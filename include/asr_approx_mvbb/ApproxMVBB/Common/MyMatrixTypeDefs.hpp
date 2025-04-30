@@ -11,7 +11,7 @@
 #ifndef ApproxMVBB_Common_MyMatrixTypeDefs_hpp
 #define ApproxMVBB_Common_MyMatrixTypeDefs_hpp
 
-#include "ApproxMVBB/Common/Platform.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Common/Platform.hpp"
 
 //#define EIGEN_DONT_VECTORIZE
 //#define EIGEN_DISABLE_UNALIGNED_ARRAY_ASSERT

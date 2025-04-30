@@ -8,7 +8,7 @@
 //  file, You can obtain one at http://mozilla.org/MPL/2.0/.
 // ========================================================================================
 
-#include "ApproxMVBB/Config/Config.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Config/Config.hpp"
 
 #include ApproxMVBB_AABB_INCLUDE_FILE
 namespace ApproxMVBB

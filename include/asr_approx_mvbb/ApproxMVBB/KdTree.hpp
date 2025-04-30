@@ -26,14 +26,14 @@
 #include <unordered_set>
 #include <utility>
 
-#include "ApproxMVBB/Config/Config.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Config/Config.hpp"
 #include ApproxMVBB_TypeDefs_INCLUDE_FILE
 #include ApproxMVBB_AssertionDebug_INCLUDE_FILE
-#include "ApproxMVBB/Common/ContainerTag.hpp"
-#include "ApproxMVBB/Common/SfinaeMacros.hpp"
-#include "ApproxMVBB/Common/StaticAssert.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Common/ContainerTag.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Common/SfinaeMacros.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Common/StaticAssert.hpp"
 
-#include "ApproxMVBB/AABB.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/AABB.hpp"
 
 namespace ApproxMVBB
 {

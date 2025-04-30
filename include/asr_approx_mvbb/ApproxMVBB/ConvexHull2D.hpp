@@ -12,12 +12,12 @@
 #define ApproxMVBB_ConvexHull2D_hpp
 
 #include <vector>
-#include "ApproxMVBB/Config/Config.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Config/Config.hpp"
 #include ApproxMVBB_TypeDefs_INCLUDE_FILE
-#include "ApproxMVBB/Common/TypeDefsPoints.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Common/TypeDefsPoints.hpp"
 #include ApproxMVBB_AssertionDebug_INCLUDE_FILE
-#include "ApproxMVBB/ContainerFunctions.hpp"
-#include "ApproxMVBB/PointFunctions.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/ContainerFunctions.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/PointFunctions.hpp"
 
 namespace ApproxMVBB
 {

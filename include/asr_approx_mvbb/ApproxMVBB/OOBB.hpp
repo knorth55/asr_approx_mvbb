@@ -11,10 +11,10 @@
 #ifndef ApproxMVBB_OOBB_hpp
 #define ApproxMVBB_OOBB_hpp
 
-#include "ApproxMVBB/Config/Config.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Config/Config.hpp"
 #include ApproxMVBB_TypeDefs_INCLUDE_FILE
 #include ApproxMVBB_AABB_INCLUDE_FILE
-#include "ApproxMVBB/AABB.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/AABB.hpp"
 
 namespace ApproxMVBB
 {

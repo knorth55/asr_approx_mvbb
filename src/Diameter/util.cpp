@@ -10,7 +10,7 @@
 #include <iostream>
 #include <limits>
 
-#include <ApproxMVBB/Diameter/Utils/util.hpp>
+#include <asr_approx_mvbb/ApproxMVBB/Diameter/Utils/util.hpp>
 
 #ifdef __clang__
 #    pragma clang diagnostic push

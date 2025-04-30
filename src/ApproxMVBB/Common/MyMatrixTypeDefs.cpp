@@ -8,8 +8,8 @@
 //  file, You can obtain one at http://mozilla.org/MPL/2.0/.
 // ========================================================================================
 
-#include "ApproxMVBB/Common/MyMatrixTypeDefs.hpp"
-#include "ApproxMVBB/Config/Config.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Common/MyMatrixTypeDefs.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Config/Config.hpp"
 
 #ifdef __clang__
 #    pragma clang diagnostic push

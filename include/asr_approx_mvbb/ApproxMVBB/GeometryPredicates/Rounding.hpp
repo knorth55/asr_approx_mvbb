@@ -12,8 +12,8 @@
 
 #include <type_traits>
 
-#include "ApproxMVBB/GeometryPredicates/Config.hpp"
-#include "ApproxMVBB/GeometryPredicates/xpfpa.h"
+#include "asr_approx_mvbb/ApproxMVBB/GeometryPredicates/Config.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/GeometryPredicates/xpfpa.h"
 
 #define STR1(x) #x
 #define STRINGIFY(x) STR1((x))

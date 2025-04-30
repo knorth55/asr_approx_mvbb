@@ -15,7 +15,7 @@
 #include <stdlib.h>
 #include <typeinfo>
 
-#include "ApproxMVBB/Config/Config.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Config/Config.hpp"
 #include ApproxMVBB_Exception_INCLUDE_FILE
 
 #ifndef NDEBUG

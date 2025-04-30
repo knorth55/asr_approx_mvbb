@@ -11,10 +11,10 @@
 #ifndef ApproxMVBB_Common_Platform_hpp
 #define ApproxMVBB_Common_Platform_hpp
 
-#include "ApproxMVBB/Config/Config.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Config/Config.hpp"
 
 #ifdef __CYGWIN__
-#    include "ApproxMVBB/Common/CygwinPatch.hpp"
+#    include "asr_approx_mvbb/ApproxMVBB/Common/CygwinPatch.hpp"
 #endif
 
 namespace ApproxMVBB

@@ -10,14 +10,14 @@
 #ifndef ApproxMVBB_ProjectedPointSet_hpp
 #define ApproxMVBB_ProjectedPointSet_hpp
 
-#include "ApproxMVBB/Config/Config.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Config/Config.hpp"
 #include ApproxMVBB_AssertionDebug_INCLUDE_FILE
 #include ApproxMVBB_TypeDefs_INCLUDE_FILE
-#include "ApproxMVBB/Common/TypeDefsPoints.hpp"
-#include "ApproxMVBB/MakeCoordinateSystem.hpp"
-#include "ApproxMVBB/PointFunctions.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Common/TypeDefsPoints.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/MakeCoordinateSystem.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/PointFunctions.hpp"
 #include ApproxMVBB_OOBB_INCLUDE_FILE
-#include "ApproxMVBB/MinAreaRectangle.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/MinAreaRectangle.hpp"
 
 //#include "TestFunctions.hpp"
 

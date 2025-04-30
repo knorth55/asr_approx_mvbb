@@ -12,10 +12,10 @@
 
 #include <stdlib.h>
 
-#include "ApproxMVBB/Config/Config.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Config/Config.hpp"
 #include ApproxMVBB_TypeDefs_INCLUDE_FILE
 
-#include "ApproxMVBB/Diameter/TypeSegment.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Diameter/TypeSegment.hpp"
 
 namespace ApproxMVBB
 {

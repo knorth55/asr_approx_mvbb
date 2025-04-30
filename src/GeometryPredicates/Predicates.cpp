@@ -117,10 +117,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "ApproxMVBB/GeometryPredicates/Predicates.hpp"
-#include "ApproxMVBB/GeometryPredicates/PredicatesInit.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/GeometryPredicates/Predicates.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/GeometryPredicates/PredicatesInit.hpp"
 /** FPU control. We MUST have only double precision (not extended precision) */
-#include "ApproxMVBB/GeometryPredicates/Rounding.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/GeometryPredicates/Rounding.hpp"
 
 #ifdef __clang__
 #    pragma clang diagnostic push

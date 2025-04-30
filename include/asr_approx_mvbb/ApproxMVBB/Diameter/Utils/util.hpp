@@ -11,10 +11,10 @@
 #define ApproxMVBB_Diameter_Utils_util_hpp
 
 #include <cmath>
-#include "ApproxMVBB/Config/Config.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Config/Config.hpp"
 #include ApproxMVBB_TypeDefs_INCLUDE_FILE
-#include "ApproxMVBB/Diameter/TypeSegment.hpp"
-#include "ApproxMVBB/Diameter/Utils/alloc.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Diameter/TypeSegment.hpp"
+#include "asr_approx_mvbb/ApproxMVBB/Diameter/Utils/alloc.hpp"
 
 #ifdef __clang__
 #    pragma clang diagnostic push
